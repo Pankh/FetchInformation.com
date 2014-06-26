@@ -1,0 +1,441 @@
+/* Main table */
+.tabTable0 {
+	font: 12px tahoma, verdana, arial;
+	color: #000000;
+}
+/* Table containing column caption text and sorting arrows */
+.tabCaptionCellO {
+	background: #369;
+	height:36px;
+	text-align: center;
+}
+A.tabPagingArrowCell0, A.tabPagingArrowCell0:link, a.tabPagingArrowCell0:visited, a.tabPagingArrowCell0:active {
+	color: #DBEAF5;
+}
+/* Table cell containing column caption text */
+.tabCaptionLink0 {
+	font: bold 12px verdana, tahoma, arial;
+	text-align: center;
+}
+A.tabCaptionLink0, A.tabCaptionLink0:link, a.tabCaptionLink0:visited, a.tabCaptionLink0:active {
+	color: #FFFFFF;
+}
+
+/* Table cell containing sorting arrow  */
+.tabSortArrowCell0 {
+	width: 12px;
+	padding-left: 2px
+}
+/* Cell of table with no effects applied at the top of the table */
+.tabHeadCell0 {
+	font-family: tahoma, verdana, arial;
+	font-size: 12px;
+	height: 18px;
+}
+/* Cell of table with no effects applied at the bottom of the table */
+.tabFootCell0 {
+	height: 18px;
+	text-align: right;
+}
+/* Table containing paging arrows and text */
+.tabPaging0 {
+	background: #D2D2D2;
+}
+/* Table cell containing paging text */
+.tabPagingText0 {
+	font: 14px verdana, tahoma, arial;
+	text-align: center;
+	color: #000000;
+}
+/* Table cell containing paging arrow */
+.tabPagingArrowCell0 {
+	font: bold 12px tahoma, verdana, arial;
+	color: #DBEAF5;
+}
+/* Table containing filtering form */
+.tabFilter0 {
+	font: 11px tahoma, verdana, arial;
+	color: #DBEAF5;
+	background: #4682B4;
+	height: 18px;
+}
+/* Input field for filtering pattern */
+.tabFilterPattern0 {
+	font: 11px tahoma, verdana, arial;
+	border-top: 1px inset #DBEAF5;
+	border-bottom: 1px inset #DBEAF5;
+	border-left: 1px inset #DBEAF5;
+	border-right: 1px inset #DBEAF5;
+}
+/* Dropdown list in a filtering form */
+.tabFilterSelect0 {
+	font: 11px tahoma, verdana, arial;
+}
+
+/* Styles for data cells */
+
+/* Cell of table body, column 0 */
+.tabBodyDBTrans {
+	font-family: tahoma, verdana, arial;
+	font-size: 12px;
+	color: #000000;
+	width: 80px;
+}
+/* Cell of Cashier, column 1 */
+.tabBodyCashier {
+	font-family: tahoma, verdana, arial;
+	font-size: 12px;
+	width: 250px;
+	padding-left: 5px
+}
+
+/* Cell of Type */
+.tabBodyCashierType {
+	font-family: verdana, tahoma, arial;
+	font-size: 12px;
+	width: 80px;
+	text-align: right;
+	padding-right: 5px
+}
+
+.tabBodyCashierStatus {
+	font-family: verdana, tahoma, arial;
+	font-size: 12px;
+	width: 80px;
+	text-align: right;
+	padding-right: 5px
+}
+/* Cell of Cachier id, column 2 */
+.tabBodyCashierId {
+	font-family: tahoma, verdana, arial;
+	font-size: 12px;
+	text-align: right;
+	width: 50px;
+	padding-right: 5px
+}
+
+/* Cell of Cachier id, column 2 */
+.tabBodyCashierPhone {
+	font-family: tahoma, verdana, arial;
+	font-size: 12px;
+	width: 75px;
+	text-align: right;
+	padding-right: 10px
+}
+
+/* Cell of table body, column 2 */
+.tabBodyRegister {
+	font-family: tahoma, verdana, arial;
+	font-size: 12px;
+	text-align: center;
+	width: 50px;
+}
+/* Cell of table body, column 3 */
+.tabBodyTransaction {
+	font-family: verdana, arial;
+	font-size: 12px;
+	text-align: right;
+	width: 50px;
+}
+.tabBodyDate {
+	font-family: verdana, arial;
+	font-size: 12px;
+	text-align: right;
+	width: 110px;
+	padding-right: 10px
+}
+.tabBodyWeekday {
+	font-family: verdana, arial;
+	font-size: 12px;
+	text-align: right;
+	width: 110px;
+	padding-right: 10px
+}
+
+.tabBodyHours {
+	font-family: verdana, arial;
+	font-size: 12px;
+	text-align: right;
+	width: 110px;
+	padding-right: 10px
+}
+
+.tabBodyTime {
+	font-family: tahoma, verdana, arial;
+	font-size: 12px;
+	text-align: right;
+	width: 100px;
+	padding-right: 10px
+}
+.tabBodySale {
+	font-family: tahoma, verdana, arial;
+	font-size: 12px;
+	text-align: right;
+	width: 100px;
+}
+
+.tabBodySaleNeg {
+	color:  red;
+	font-family: tahoma, verdana, arial;
+	font-size: 12px;
+	text-align: right;
+	width: 70px;
+}
+
+/* Cell of table body, column 0 */
+.tabBodyPLU {
+	font-family: tahoma, verdana, arial;
+	font-size: 12px;
+	color: #000000;
+	width: 120px;
+}
+/* Cell of table body, column 1 */
+.tabBodyPLUDesc {
+	font-family: tahoma, verdana, arial;
+	font-size: 12px;
+	width: 350px;
+}
+
+.tabBodyDept {
+	font-family: tahoma, verdana, arial;
+	font-size: 12px;
+	width: 50px;
+}
+
+/* Cell of table body, column 2 */
+.tabBodyQty {
+	font-family: tahoma, verdana, arial;
+	font-size: 12px;
+	text-align: center;
+	width: 70px;
+}
+
+.tabHourlyTime {
+	font-family: verdana, tahoma, arial;
+	font-size: 12px;
+	width: 120px;
+}
+
+.tabHourlySales {
+	font-family: verdana, tahoma, arial;
+	font-size: 12px;
+	width: 80px;
+	text-align: right;
+	padding-right: 5px
+}
+
+.tabHourlySalesPercentage {
+	font-family: verdana, tahoma, arial;
+	font-size: 12px;
+	width: 80px;
+	text-align: right;
+	padding-right: 5px
+}
+
+.tabHourlyUnits {
+	font-family: verdana, tahoma, arial;
+	font-size: 12px;
+	width: 35px;
+	text-align: right;
+	padding-right: 5px
+}
+
+.tabHourlyUnitsPercentage {
+	font-family: verdana, tahoma, arial;
+	font-size: 12px;
+	width: 80px;
+	text-align: right;
+	padding-right: 5px
+}
+
+.tabHourlyCustomers {
+	font-family: verdana, tahoma, arial;
+	font-size: 12px;
+	width: 50px;
+	text-align: right;
+	padding-right: 5px
+}
+
+.tabHourlyCustomersPercentage {
+	font-family: verdana, tahoma, arial;
+	font-size: 12px;
+	width: 70px;
+	text-align: right;
+	padding-right: 5px
+}
+
+.tabHourlyIAT {
+	font-family: verdana, tahoma, arial;
+	font-size: 12px;
+	width: 80px;
+	text-align: right;
+	padding-right: 5px
+}
+
+
+
+/* Cell of Department name, column 1 */
+.tabDeptName {
+	font-family: verdana, tahoma, arial;
+	font-size: 12px;
+	width: 300px;
+}
+
+.tabDeptNum {
+	font-family: verdana, tahoma, arial;
+	font-size: 12px;
+	width: 100px;
+	padding-left: 5px
+
+}
+
+.tabDeptGrpName {
+	font-family: verdana, tahoma, arial;
+	font-size: 12px;
+	width: 300px;
+}
+
+.tabDeptGrpNum {
+	font-family: verdana, tahoma, arial;
+	width: 100px;
+	padding-left: 5px
+
+}
+
+.tabPromoDesc {
+	font-family: verdana, tahoma, arial;
+	font-size: 12px;
+	width: 280px;
+}
+
+.tabPromoType {
+	font-family: verdana, tahoma, arial;
+	font-size: 12px;
+	text-align: right;
+	width: 160px;
+}
+
+.tabPromoPluCount {
+	font-family: verdana, tahoma, arial;
+	font-size: 12px;
+	text-align: right;
+	width: 50px;
+}
+
+.tabPromoDate {
+	font-family: verdana, tahoma, arial;
+	font-size: 12px;
+	text-align: right;
+	width: 120px;
+}
+
+.tabPromoStatus {
+	font: 12px verdana, tahoma, arial;
+	text-align: right;
+	width: 20px;
+}
+
+.tabPromoStatusActive {
+	color: red;
+	font: bold 12px verdana, tahoma, arial;
+	text-align: right;
+	width: 20px;
+}
+
+.tabPromoPlu {
+	font: 12px verdana, tahoma, arial;
+	text-align: right;
+	width: 250px;
+}
+
+.tabPromoDept {
+	font: 12px verdana, tahoma, arial;
+	text-align: right;
+	width: 150px;
+}
+
+.tabPromoVendor {
+	font: 12px verdana, tahoma, arial;
+	text-align: right;
+	width: 150px;
+}
+
+.tabVendorName {
+	font-family: verdana, tahoma, arial;
+	font-size: 12px;
+	text-align: left;
+	width: 225px;
+}
+
+.tabVendorAddress {
+	font-family: verdana, tahoma, arial;
+	font-size: 12px;
+	text-align: left;
+	width: 175px;
+}
+
+.tabVendorCity {
+	font-family: verdana, tahoma, arial;
+	font-size: 12px;
+	text-align: left;
+	width: 125px;
+}
+
+.tabVendorState {
+	font-family: verdana, tahoma, arial;
+	font-size: 12px;
+	text-align: left;
+	width: 35px;
+}
+
+.tabVendorPhone {
+	font-family: verdana, tahoma, arial;
+	font-size: 12px;
+	text-align: left;
+	width: 120px;
+}
+
+
+.tabWidth15  { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width:  15px;   text-align: right;   padding-right: 5px;  }
+.tabWidth25  { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width:  25px;   text-align: right;   padding-right: 5px;  }
+.tabWidth50  { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width:  50px;   text-align: right;   padding-right: 5px;  }
+.tabWidth75  { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width:  75px;   text-align: right;   padding-right: 5px;  }
+.tabWidth100 { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 100px;   text-align: right;   padding-right: 5px;  }
+.tabWidth125 { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 120px;   text-align: right;   padding-right: 5px;  }
+.tabWidth150 { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 150px;   text-align: right;   padding-right: 5px;  }
+.tabWidth175 { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 175px;   text-align: right;   padding-right: 5px;  }
+.tabWidth200 { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 200px;   text-align: right;   padding-right: 5px;  }
+.tabWidth225 { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 225px;   text-align: right;   padding-right: 5px;  }
+.tabWidth250 { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 250px;   text-align: right;   padding-right: 5px;  }
+.tabWidth300 { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 300px;   text-align: right;   padding-right: 5px;  }
+.tabWidth350 { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 350px;   text-align: right;   padding-right: 5px;  }
+.tabWidth400 { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 400px;   text-align: right;   padding-right: 5px;  }
+.tabWidth450 { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 450px;   text-align: right;   padding-right: 5px;  }
+.tabWidth475 { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 475px;   text-align: right;   padding-right: 10px;  }
+.tabWidth500 { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 500px;   text-align: right;   padding-right: 5px;  }
+.tabWidth550 { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 550px;   text-align: right;   padding-right: 5px;  }
+.tabWidth600 { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 600px;   text-align: right;   padding-right: 15px;  }
+.tabWidth650 { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 650px;   text-align: right;   padding-right: 15px;  }
+.tabWidth700 { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 700px;   text-align: right;   padding-right: 15px;  }
+
+
+.tabWidth15L  { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width:  15px;   text-align: left;   padding-left: 5px;  }
+.tabWidth25L  { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width:  25px;   text-align: left;   padding-left: 5px;  }
+.tabWidth50L  { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width:  50px;   text-align: left;   padding-left: 5px;  }
+.tabWidth75L  { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width:  75px;   text-align: left;   padding-left: 5px;  }
+.tabWidth100L { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 100px;   text-align: left;   padding-left: 5px;  }
+.tabWidth125L { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 120px;   text-align: left;   padding-left: 5px;  }
+.tabWidth150L { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 150px;   text-align: left;   padding-left: 5px;  }
+.tabWidth175L { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 175px;   text-align: left;   padding-left: 5px;  }
+.tabWidth200L { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 200px;   text-align: left;   padding-left: 5px;  }
+.tabWidth225L { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 225px;   text-align: left;   padding-left: 5px;  }
+.tabWidth250L { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 250px;   text-align: left;   padding-left: 5px;  }
+.tabWidth300L { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 300px;   text-align: left;   padding-left: 5px;  }
+.tabWidth350L { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 350px;   text-align: left;   padding-left: 5px;  }
+.tabWidth450L { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 450px;   text-align: left;   padding-left: 5px;  }
+.tabWidth475L { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 475px;   text-align: left;   padding-left: 10px;  }
+.tabWidth500L { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 500px;   text-align: left;   padding-left: 5px;  }
+.tabWidth550L { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 550px;   text-align: left;   padding-left: 5px;  }
+.tabWidth600L { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 600px;   text-align: left;   padding-left: 15px;  }
+.tabWidth650L { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 650px;   text-align: left;   padding-left: 15px;  }
+.tabWidth700L { font-family: Verdana, Tahoma, Arial;  font-size: 12px;  width: 700px;   text-align: left;   padding-left: 15px;  }

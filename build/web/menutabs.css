@@ -1,0 +1,116 @@
+#maintab {
+	margin-left: 0px;
+	padding: 0;
+	background: #369;
+	width: 100.5%;
+	padding-left: 0px;
+}
+
+#maintab ul	{
+	font: bold 12px  Verdana, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+
+#maintab li	{
+	display: inline;
+	font-size:100%;
+	margin:0 5px 0 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+#maintab a {
+	float: left;
+	color:  white;
+	border-right: 2px solid white;
+	background: #369;
+	margin:0 0px 0 0;
+	padding: 0 0 0 10px;
+	text-decoration: none;
+	letter-spacing: 2px;
+	background: #369 repeat ;
+}
+
+#maintab a span {
+	float:left;
+	display: block;
+	border-right: 0px solid #369;
+	border-bottom: 0;
+	border-top: 2px;
+	padding:4px 9px 4px 9px;
+}
+
+#maintab a:hover {
+	background-color: #D2D2D2;
+}
+
+#maintab a:hover span {
+	background-color: #D2D2D2;
+}
+
+#maintab #current a, #maintab #current span {
+	color: black;
+	background-color: #D2D2D2;
+}
+
+#row {
+	clear: both;
+}
+
+
+#subtab {
+
+	margin-left: 0px;
+	padding: 0;
+	background: #D2D2D2;
+	padding-left: 0px;
+}
+
+#subtab ul	{
+	font: bold 12px  Verdana, Arial, sans-serif;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#subtab li	{
+	display: inline;
+	margin:0 2px 0 0;
+	padding: 0;
+	text-transform:uppercase;
+}
+
+#subtab a {
+	float:left;
+	color: black;
+	background: #D2D2D2 repeat left top;
+	border-right: 0px solid white;
+	margin:0 0px 0 0;
+	padding:0 0 0 0;
+	text-decoration:none;
+	letter-spacing: 2px;
+}
+
+#subtab a span {
+	float:left;
+	display:block;
+	border-top: 4px;
+	padding:4px 9px 4px 9px;
+}
+
+
+#subtab a:hover {
+	background-color: #D2D2D2;
+}
+
+#subtab a:hover span {
+	background-color: gray;
+}
+
+#subtab #current a, #subtab #current span {
+	color: black;
+	font: bold 12px  Verdana, Arial, sans-serif;
+	background-color: #AAAAAA;
+}

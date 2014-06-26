@@ -1,0 +1,395 @@
+/*
+ * Color Code:	Navy			Deep Blue
+ *		#FFFFFF			White
+ *		#000000			Black
+ *		#333333			Gray (very dark)
+ *		#666666			Grey (dark)
+ *		#D2D2D2			Grey (light)
+ *		#E2E2E2			Grey (lighter)
+ *		#0066FF			Bright Blue
+ *		#FFFF00			Yellow (Bright)
+ *		#FF6987			Pink
+ *		#FF00FF			Purple-Pink
+ *
+ */
+/* Top header, store name */
+
+.storetitle {
+	 font-family:  Verdana;
+	 font-size: 30px;
+	 font-weight: 300 ;
+	 color: #191970; 	/* Midnight blue */
+}
+
+.fieldSetBox {
+	 font-family:  Verdana;
+	 font-size: 	16px;
+	 color: #369; 	/* Midnight blue */
+	 font-weight:  bold;
+}
+
+.addressEditField {
+	 font-family:  Verdana;
+	 font-size: 	14px;
+	 color: Black;
+
+}
+
+
+/*Left menu table*/
+A.menucateg_off {
+	display: block;
+	text-decoration: none;
+	font-family:  Verdana;
+	font-size: 14px;
+	color: Navy;
+	font-weight: bold;
+}
+A.menucateg_on {
+	text-decoration: none;
+	font-family:  Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+}
+A.menucateg_off:hover {
+	text-decoration: underline;
+	color: #0066FF;
+}
+TABLE.leftmenutable{
+	border-right: 1px solid #666666;
+	border-left: 1px solid #666666;
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+}
+
+
+TD.homepagetext {
+	background: 		white;
+	font-family:  		Arial;
+	padding-top:		20px;
+	padding-left:		20px;
+	padding-right:		20px;
+
+}
+
+TR.menurow_off{
+	background: #D2D2D2;
+}
+TR.menurow_on{
+	background: #369;
+}
+TD.topnavbase{
+	background: #369;
+}
+
+/* Sales Balancing Title */
+TD.sbTitle {
+	font-family:  Verdana;
+	font-weight:  bold;
+	font-size:    15px;
+	text-align:   right;
+	padding-right:	5px;
+}
+
+/* Sales Balancing Value */
+TD.sbValue {
+	font-family:  Verdana;
+	font-size:    16px;
+	text-align:right;
+	padding-right:	5px;
+}
+
+TD.sbValueNeg {
+	font-family:  	Verdana;
+	color:	      	red;
+	font-size:    	16px;
+	text-align:     right;
+	padding-right:	5px;
+}
+
+/* Search Table Values */
+TH.searchID {
+	font-family:  	Verdana;
+	font-size:    	18px;
+	text-align:   	left;
+	padding-left:	15px;
+	background: 	#E2E2E2;
+	height:	60px;
+}
+TD.searchID {
+	font-family:  	Verdana;
+	font-size:    	13px;
+	text-align:   	right;
+	padding-right:	15px;
+}
+/* Sales Balancing Value */
+
+TH.searchAddr {
+	font-family:  	Verdana;
+	font-size:    	18px;
+	text-align:   	left;
+	padding-left:	15px;
+	background: 	#E2E2E2;
+}
+TD.searchAddr {
+	font-family:  	Verdana;
+	font-size:    	13px;
+	text-align:   	left;
+	padding-left:	15px;
+}
+
+TH.searchDate {
+	font-family:  	Verdana;
+	font-size:    	18px;
+	text-align:   	left;
+	padding-left:	15px;
+	background: 	#E2E2E2;
+}
+TD.searchDate {
+	font-family:  	Verdana;
+	font-size:    	13px;
+	text-align:   	right;
+	padding-right:	15px;
+}
+
+TD.searchRowOdd {
+	font-family:  	Verdana;
+	font-size:    	13px;
+	text-align:   	left;
+	padding-left:	15px;
+	background: 	#E2E2E2;
+
+}
+
+TD.searchRowEven {
+	font-family:  	Verdana;
+	font-size:   	13px;
+	text-align:   	left;
+	padding-left:	15px;
+}
+
+
+/* Plu Data Display */
+TD.pluTitle {
+	font-family:  Verdana;
+	font-weight:  bold;
+	font-size:    14px;
+	text-align:   right;
+}
+
+/* Sales Balancing Value */
+TD.pluValue {
+	font-family:  Verdana;
+	font-size:    13px;
+	text-align:   right;
+}
+
+TABLE.txnNavigationBottom{
+	border-right: 1px solid #666666;
+	border-left: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+}
+
+TABLE.txnNavigationTop{
+	border-right: 1px solid #666666;
+	border-left: 1px solid #666666;
+	border-top: 1px solid #666666;
+}
+
+/* Display transactions in a fixed width font */
+TR.txnNavigation {
+	font-family:  Verdana;
+	font-size:    15px;
+	font-weight:	bold;
+	height:	50px;
+}
+
+TR.txnHeader {
+	font-family:  Verdana;
+	font-size:    14px;
+	text-align:	right;
+	font-weight:	bold;
+	empty-cells:	show;
+	height:	40px;
+}
+
+TR.txnTextRowEven {
+	font-family:  		Verdana;
+	font-size: 		14px;
+	text-align:		right;
+	background: 		#E2E2E2;
+}
+
+TR.txnTextRowOdd {
+	font-family:  		Verdana;
+	font-size: 		14px;
+	text-align:		right;
+	background: 		white;
+}
+
+TR.txnTextDiscount {
+	font-family:  		Verdana;
+	font-size: 		14px;
+	text-align:		right;
+	background: 		#FFFF00;
+}
+
+TR.txnTextCoupon {
+	font-family:  		Verdana;
+	font-size: 		14px;
+	text-align:		right;
+	background: 		#FF6987;
+}
+
+TR.txnTextErrorCorrect {
+	font-family:  		Verdana;
+	font-size: 		14px;
+	text-align:		right;
+	background: 		#FF00FF;
+}
+
+TR.txnTextTotal {
+	font-family:  Verdana;
+	font-size:    14px;
+	text-align:	right;
+	font-weight:	bold;
+	empty-cells:	show;
+	height:	40px;
+}
+
+TD.journalText {
+	font-family:  		Courier New;
+	font-size: 		16px;
+	padding-left:		20px;
+}
+/*Infoboxes*/
+TABLE.infobox{
+	background: 		#D2D2D2;
+}
+
+TD.itemMoveGrouping {
+	font-family:  Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+	text-align:	right;
+}
+
+TR.infobox_header{
+	background: MediumBlue;
+}
+A.infobox_header{
+	text-decoration: none;
+	color: white;
+}
+A.infobox_header:hover{
+	text-decoration: underline;
+	color: white;
+}
+.infobox_header{
+	font-family:  Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+}
+.infobox_content{
+	font-family:  Arial;
+	font-size: 11px;
+	color: Navy;
+}
+/*Top navigation bar date text*/
+.topnavtextBlack{
+	font-family:  Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+}
+
+.logoDate {
+	font-family:  Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+}
+
+.topnavtextWhite{
+	font-family:  Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+}
+
+/*Bottom links*/
+.bottompagelinks{
+	font-family:  Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+}
+
+TD.promoDetailHeader {
+	font-family:  		Verdana;
+	font-size: 		14px;
+	text-align:		right;
+	font-weight: 		bold;
+}
+
+TD.promoDetailHeaderValue {
+	font-family:  		Verdana;
+	font-size: 		13px;
+	padding-left:		10px;
+}
+
+
+
+A.bottompagelinks{
+	text-decoration: none;
+}
+A.bottompagelinks:hover{
+	text-decoration: underline;
+	color: black;
+}
+/*Main body text*/
+.bodyheadera {
+	font-family:  Verdana, Tahoma, Arial;
+	font-size: 15px;
+	font-weight: bold;
+	color: #191970;
+}
+.bodyheaderb{
+	font-family:  Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #191970;
+}
+
+.bodyheaderc {
+	font-family:  Verdana, Tahoma, Arial;
+	font-size: 16px;
+	color: #369;
+}
+
+.bodytexta{
+	font-family:  Arial;
+	font-size: 12px;
+	color: #191970;
+}
+.bodytextb{
+	font-family:  Arial;
+	font-size: 12px;
+	color: #333333;
+}
+.bodytextc{
+	font-family:  Arial;
+	font-size: 11px;
+	color: #666666;
+}
+
+.subbutton
+{font-family: Arial;font-size: 13px; color: #191970;background: #D2D2D2; }
+.subbutton1
+{font-family: Arial;font-size: 13px; color: #191970;background: #D2D2D2;
+ border-left: 1px solid #333333;border-right: 2px solid #333333;
+ border-top: 1px solid #333333;border-bottom: 2px solid #333333
+}
